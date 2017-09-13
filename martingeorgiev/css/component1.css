@@ -308,7 +308,7 @@ button.trigger span::before {
 }
 
 .content > div:not(.title) p {
-	margin: 0 auto 1.5em auto;
+    margin: 25px auto 1.5em auto;
 }
 
 .content > div:not(.title) p:first-child {
@@ -610,4 +610,9 @@ button.trigger span::before {
 	font-size: 1em;
 	font-weight: 700;
 	padding: 17px;
+}
+
+.intro-effect-fadeout.modify .bg-img img{
+	filter: blur(9px) brightness(90%);
+	transition: filter 0.3s;
 }
